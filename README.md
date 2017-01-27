@@ -28,6 +28,7 @@ jQuery
 
 * A user selects which size of pizza.
 * A user can select multiple toppings to add.
+* Each topping costs $1.
 
 ## Known Bugs
 

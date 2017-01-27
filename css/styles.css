@@ -1,3 +1,32 @@
 #order-confirmation {
   display: none;
 }
+
+.money {
+  text-align: right;
+}
+
+.topping {
+  text-indent: 10px;
+}
+
+table {
+  width: 300px;
+  font-family: monospace;
+  padding: 20px;
+  margin: 20px;
+}
+
+td {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+thead th {
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+tfoot tr {
+  border-top: 2px solid black;
+}

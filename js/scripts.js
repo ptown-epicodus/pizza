@@ -21,6 +21,16 @@ Pizza.prototype.price = function() {
   return total;
 };
 
+var itemPrice = function(item) {
+  var items = {
+    "Large": 16,
+    "Medium": 12,
+    "Small": 8
+  };
+
+  return items[item];
+};
+
 
 // Interface logic
 var pizza;
@@ -38,6 +48,11 @@ $(document).ready(function() {
     pizza = new Pizza(size, toppings);
 
     $(".price").text(pizza.price().toFixed());
+    $("table#show-pizza tbody").append("<tr><td>" + pizza.size + " pizza</td><td class='money'>$" + itemPrice(pizza.size).toFixed() + "</td></tr>");
+    pizza.toppings.forEach(function(element) {
+      $("table#show-pizza tbody").append("<tr><td class='topping'>" + element + "</td><td class='money'>+$1</td></tr>");
+    });
+    $("td#total-price").text("$" + pizza.price().toFixed());
     $("#order-form").hide();
     $("#order-confirmation").show();
   });
