@@ -21,9 +21,9 @@
             <div class="form-group">
               <label for="new-size">Size</label>
               <select id="new-size" name="sizes" class="form-control">
-                <option>Large</option>
-                <option>Medium</option>
-                <option>Small</option>
+                <option value="Large">Large ($16)</option>
+                <option value="Medium">Medium ($12)</option>
+                <option value="Small">Small ($8)</option>
               </select>
             </div>
 
@@ -32,23 +32,67 @@
                 <h3 class="panel-title">Toppings</h3>
               </div>
               <div class="panel-body">
-                <div class="checkbox">
-                  <label>
-                    <input id="pepperoni" type="checkbox" name="topping-choice" value="pepperoni">
-                    Pepperoni
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input id="sausage" type="checkbox" name="topping-choice" value="sausage">
-                    Sausage
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input id="olives" type="checkbox" name="topping-choice" value="olives">
-                    Olives
-                  </label>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="topping-heading">Meats (+ $2 each)</p>
+                    <div class="checkbox">
+                      <label>
+                        <input id="pepperoni" type="checkbox" name="topping-choice" value="pepperoni">
+                        Pepperoni
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="sausage" type="checkbox" name="topping-choice" value="sausage">
+                        Sausage
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="ham" type="checkbox" name="topping-choice" value="ham">
+                        Ham
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="bacon" type="checkbox" name="topping-choice" value="bacon">
+                        Bacon
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="topping-heading">Veggies (+ $1 each)</p>
+                    <div class="checkbox">
+                      <label>
+                        <input id="mushrooms" type="checkbox" name="topping-choice" value="mushrooms">
+                        Mushrooms
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="onions" type="checkbox" name="topping-choice" value="onions">
+                        Onions
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="olives" type="checkbox" name="topping-choice" value="olives">
+                        Olives
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="peppers" type="checkbox" name="topping-choice" value="peppers">
+                        Peppers
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="pineapple" type="checkbox" name="topping-choice" value="pineapple">
+                        Pineapple
+                      </label>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

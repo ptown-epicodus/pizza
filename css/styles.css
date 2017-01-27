@@ -1,3 +1,7 @@
+p.topping-heading {
+  font-weight: bold;
+}
+
 #order-confirmation {
   display: none;
 }

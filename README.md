@@ -28,7 +28,8 @@ jQuery
 
 * A user selects which size of pizza.
 * A user can select multiple toppings to add.
-* Each topping costs $1.
+* Each meat topping costs $2 and each veggie $1.
+* The page shows the pricing breakdown once the user orders.
 
 ## Known Bugs
 
