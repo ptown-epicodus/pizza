@@ -1,6 +1,6 @@
-# Order Pizza
+# Pizza Store
 
-#### Web page for ordering pizza for Epicodus, 01.26.2017
+#### Web page for ordering pizza for Epicodus, 01.27.2017
 
 #### By Patrick McGreevy
 
