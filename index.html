@@ -8,6 +8,35 @@
     <title>Order pizza</title>
   </head>
   <body>
+    <h1>Order a pizza</h1>
+    <div id="order-form">
+      <form id="new-pizza">
+        <label for="new-size">Size</label>
+        <select id="new-size" name="sizes">
+          <option>Large</option>
+          <option>Medium</option>
+          <option>Small</option>
+        </select>
 
+        <h6>Toppings:</h6>
+        <input id="pepperoni" type="checkbox" name="topping-choice" value="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+        <input id="sausage" type="checkbox" name="topping-choice" value="sausage">
+        <label for="sausage">Sausage</label>
+        <input id="olives" type="checkbox" name="topping-choice" value="olives">
+        <label for="olives">Olives</label>
+
+        <button type="submit">Order</button>
+      </form>
+    </div>
+
+    <div id="order-confirmation">
+      <p>
+        You're pizza will be ready soon.
+      </p>
+      <p>
+        Cost: $<span class="price"></span>
+      </p>
+    </div>
   </body>
 </html>
